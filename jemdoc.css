@@ -378,3 +378,9 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+@media screen and (max-device-width:960px) {
+	table {
+		font-size: 32px;
+	}
+}
