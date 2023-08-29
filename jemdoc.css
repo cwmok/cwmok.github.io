@@ -1,4 +1,53 @@
 /* Default css file for jemdoc. */
+#name {
+    width: 330px;
+}
+
+#main_info_container {
+    position: relative;
+    margin-left: 265px;
+/*    width: 665px;*/
+/*    width: 30%;*/
+    padding-left: 15px;
+    /* font-size: 14px; */
+    padding-top: 15px;
+}
+
+#header_container {
+    height: 220px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+/*	display: block;*/
+}
+
+#headshot img {
+    border: 1px #ffffff solid;
+    padding: 0px 5px 0px 0px;
+    background-color: #ffffff;
+    margin-left: 5px;
+    margin-right: 5px;
+	width: 220px;
+	overflow-clip-margin: content-box;
+	overflow: clip;
+	border-radius: 50% !important;
+}
+
+#headshot {
+    width: 220px;
+    padding-top: 0px;
+    text-align: center;
+    float: left;
+/*	display: block;*/
+}
+
+.pages_post_descr {
+    width: 350px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 5px 0 5px 0;
+}
+
 
 html {
     background-color: #eeeeee;
@@ -155,7 +204,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 105%;
 	border-bottom: none;
 }
 
@@ -385,4 +434,7 @@ table.imgtable, table.imgtable td {
 	table {
 		font-size: 32px;
 	}
+    #main_info_container {
+        font-size: 150%;
+    }
 }
