@@ -1,10 +1,10 @@
 /* Default css file for jemdoc. */
 #name {
-    width: 330px;
+    width: 450px;
 }
 
 #main_info_container {
-    position: relative;
+/*    position: relative;*/
     margin-left: 265px;
 /*    width: 665px;*/
 /*    width: 30%;*/
@@ -435,6 +435,12 @@ table.imgtable, table.imgtable td {
 		font-size: 32px;
 	}
     #main_info_container {
-        font-size: 150%;
+        font-size: 180%;
+    }
+    #header_container {
+        margin-bottom: 150px;
+    }
+    #name {
+    width: 550px;
     }
 }
